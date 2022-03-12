@@ -1,0 +1,28 @@
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "semi": true,
+  "jsxBracketSameLine": false,
+  "printWidth": 120,
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+
+    "^contexts(.*)$",
+    "^hooks(.*)$",
+    "^utils(.*)$",
+    "^atoms(.*)$",
+    "^molecules(.*)$",
+    "^organisms(.*)$",
+    "^templates(.*)$",
+    "^icons/(.*)$",
+
+    "^[./]"
+  ],
+
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
